@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-image: url(../assets/desktop.svg);
+  background-color:gray;
+  background-repeat:no-repeat;
+  background-size:cover
+}
+
+main{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.container{
+  text-align:center;
+}
+
+button{
+  width:200px;
+  color: #000000;
+  background: #FAE12C;
+  border-radius:5px;
+  padding:10px 16px;
+  margin-top:20px;
+  border:none; 
+  cursor:pointer;
+
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 660px) {
+  body {
+    background-image: url(../assets/mobile.svg);
+    background-color: blue;
+  }
+}
