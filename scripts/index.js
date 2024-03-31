@@ -8,8 +8,8 @@ function adicionarNome(nome, elemento) {
     }}, 200);
 }
 
-// Selecionar o elemento H1
+
 const h1 = document.querySelector("#titulo");
 
-// Adicionar o nome "Penas Nipute"
-adicionarNome("Penas Nipute", h1);
+
+adicionarNome("Penas Nipute...", h1);
